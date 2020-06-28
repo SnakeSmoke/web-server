@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="img/weather.png">
+</head>
+
+<body>
+
+    <div class="main-content">
+        {{>header}}
+        <h1>{{message}}</h1>
+        <p>This app was a weekend project to solidify some node.js techniques. It is build using the weatherstack.com
+            API and the search function works for almost any input; it tries to find the closest match.</p>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
